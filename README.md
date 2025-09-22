@@ -192,6 +192,3 @@ project/
 - Headless mode is disabled to see visual execution
 - Global timeout configured to 30 seconds
 
----
-
-Developed with ❤️ to demonstrate test automation skills
