@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // Use a modern JavaScript version
+    "module": "commonjs", // Module system for Node.js
+    "lib": ["ES2022", "DOM"], // Include modern APIs and DOM
+    "sourceMap": true, // Generate sourcemaps for debugging
+    "outDir": "./dist", // Output directory for compiled files
+    "rootDir": "./", // Root directory of source code
+    "strict": true, // Enable all strict type checks
+    "noImplicitAny": true, // Don't allow implicit 'any' types
+    "strictNullChecks": true, // Check for null/undefined values
+    "noImplicitReturns": true, // Check that all paths return a value
+    "noFallthroughCasesInSwitch": true, // Prevent accidental fallthrough in switch
+    "esModuleInterop": true, // Better module interoperability
+    "forceConsistentCasingInFileNames": true, // Force consistency in file names
+    "skipLibCheck": true, // Skip type checking of .d.ts files
+    "resolveJsonModule": true, // Allow importing JSON files
+    "declaration": true // Generate declaration files .d.ts
+  },
+  "include": [
+    "**/*.ts" // Include all TypeScript files
+  ],
+  "exclude": [
+    "node_modules", // Exclude node_modules
+    "dist", // Exclude build directory
+    "playwright-report", // Exclude Playwright reports
+    "test-results" // Exclude test results
+  ]
+}
